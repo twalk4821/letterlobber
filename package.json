@@ -1,0 +1,22 @@
+{
+  "name": "lob-challenge",
+  "version": "1.0.0",
+  "description": "Send emails using lob",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "cd client && yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.1",
+    "concurrently": "^3.5.0",
+    "express": "^4.15.4",
+    "lob": "^4.1.1",
+    "path": "^0.12.7"
+  }
+}

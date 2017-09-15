@@ -1,0 +1,16 @@
+textArea {
+	width: 250px;
+	height: 250px;
+	padding-left: 40px;
+	padding-top: 20px;
+	margin-top:20px;
+	border-radius: 10px;
+	background-image: url('https://naldzgraphics.net/wp-content/uploads/2012/08/28-Pristine.jpg');
+	background-size: 100% 100%;
+	font-family: cursive;
+}
+
+.composeContainer div {
+	margin-top:10px;
+	font-family: Helvetica;
+}
